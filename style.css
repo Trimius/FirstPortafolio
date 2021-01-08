@@ -62,10 +62,19 @@ h1, h2 {
 }
 h2 {
     font-size: 2rem;
+    padding-top: 45px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+img {
+    display: block;
 }
 .project-section {
     text-align: center;
     background: var(--main-blue);
+    padding: 4rem 0.7rem;
 }
 .projects-header {
     max-width: 640px;
@@ -82,4 +91,63 @@ h2 {
 }
 .project {
     background: var(--main-dark);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+.project-image {
+    height: calc(100% - 3.5rem);
+    width: 100%;
+    object-fit: cover;
+}
+.project-title {
+    font-size: 1.4rem;
+    padding: 1rem 0.3rem;
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 1.6rem;
+    background: var(--main-dark);
+}
+.contact-section-header h2 {
+    font-size: 2.6rem;
+}
+.contact-section-header p {
+    font-style: italic;
+    color: var(--main-gray);
+}
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 720px;
+    margin: 2.5rem auto;
+    flex-wrap: wrap;
+}
+.contact-details {
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    padding: 10px 20px;
+    margin-left: -15px;
+}
+.cdl {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.github {
+    background: url(/assets/icons/github.png)center/cover no-repeat;
+}
+.linkedin {
+    background: url(/assets/icons/linkedin.png)center/cover no-repeat;
+}
+.twitter {
+    background: url(/assets/icons/twitter.png)center/cover no-repeat;
 }
