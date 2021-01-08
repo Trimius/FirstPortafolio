@@ -143,11 +143,11 @@ img {
     margin-top: 5px;
 }
 .github {
-    background: url(../assets/icons/github.png)center/cover no-repeat;
+    background: url(/assets/icons/github.png)center/cover no-repeat;
 }
 .linkedin {
-    background: url(../assets/icons/linkedin.png)center/cover no-repeat;
+    background: url(/assets/icons/linkedin.png)center/cover no-repeat;
 }
 .twitter {
-    background: url(../assets/icons/twitter.png)center/cover no-repeat;
+    background: url(/assets/icons/twitter.png)center/cover no-repeat;
 }
