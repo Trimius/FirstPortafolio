@@ -1,0 +1,17 @@
+.nav-menu {
+    margin: 1rem 1rem;
+}
+.nav-menu a {
+    padding: 1rem 5rem;
+}
+h2 {
+    font-size: 3rem;
+    padding-bottom: 45px;
+}
+.projects-grid {
+    grid-gap: 1vw;
+    grid-template-columns: 2fr 2fr;
+}
+.contact-details {
+    padding: 15px 65px;
+}
